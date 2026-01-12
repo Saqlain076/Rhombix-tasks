@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="Portfolio.css">
+    <title>Saqlain Ahmed</title>
+</head>
+
+<body>
+    <i class="fa-solid fa-bars" onclick="myFunction()"></i>
+    <div class="navbar">
+        <ul>
+            <li><a href="#introduction"><i class="fa-solid fa-user"></i><span>Introduction</span></a></li>
+            <li><a href="#section-1"><i class="fa-solid fa-building-columns"></i><span>About</span></a></li>
+            <li><a href="#section-2"><i class="fa-solid fa-file-code"></i><span>Projects</span></a></li>
+            <li><a href="#section-3"><i class="fa-solid fa-gear"></i><span>Skills</span></a></li>
+            <li><a href="#section-4"><i class="fa-solid fa-envelope"></i><span>Contact</span></a></li>
+        </ul>
+    </div>
+    <main id="introduction" class="introduction">
+        <div class="intro">
+            <div class="name">
+                <h2>Saqlain Ahmed</h2>
+            </div>
+            <div class="static-text">I'm <span class="dynamic-text"></span></div>
+            <div class="social">
+                <a href="https://www.facebook.com/share/1ByPLNNAfj/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/bishal_haideri?igsh=cDY3eDE0dmZjYjVt"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@saqlain.ahmed.haideri?_r=1&_t=ZS-930kvnlgJXA"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.linkedin.com/in/saqlain-ahmed-29912b28a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Saqlain076"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+        <div class="image">
+            <img src="./Profile image.jpeg" alt="">
+        </div>
+    </main>
+
+    <Section class="section-1" id="section-1">
+        <div class="hd-1">
+            <h3>About</h3>
+        </div>
+        <div class="para-1">
+            <p>
+                Hello! My name is <strong>Saqalin Ahmed</strong>, and I am a <strong>BS Computer Science student at the
+                    University of Baltistan</strong>,
+                Skardu. I am passionate about technology and continuously working to enhance my skills in <strong>Web
+                    Development, Artificial Intelligence, and programming</strong>. I aim to build practical, real-world
+                solutions
+                through clean design, efficient code, and innovative thinking. My goal is to secure a professional role
+                where I can apply my knowledge, grow as a developer, and contribute meaningfully to impactful projects.
+            </p>
+        </div>
+        <div class="dce">
+            <div class="dob"><i class="fa-regular fa-calendar"></i><span>
+                    <h3>DOB : </h3>December, 3 2003
+                </span></div>
+            <div class="city"><i class="fa-solid fa-location-dot"></i><span>
+                    <h3>CITY : </h3>Skardu, Pakistan
+                </span></div>
+            <div class="edu"><i class="fa-solid fa-graduation-cap"></i><span>
+                    <h3>Education : </h3>Bachelor
+                </span></div>
+        </div>
+    </Section>
+    <Section class="section-2" id="section-2">
+        <div class="hd-2">
+            <h3>Project</h3>
+        </div>
+        <div class="projects">
+
+            <div class="card-1" style="width: 300px;">
+                <img src="./face detect.png" class="card-img-top" alt="..." style="height: 300px; width: 300px;">
+                <div class="card-body">
+                    <h5 class="card-title">Face Detection Attendence System</h5>
+                    <p class="card-text">This project need have multiple features. This project help to make sure the
+                        attendence of any organization using face detection. We used python and MySQL to complete this
+                        project. The python libaries are used also the Har Cascades algorithm of CNN used to detect the
+                        face.</p>
+                </div>
+            </div>
+
+            <div class="card-2" style="width: 300px;">
+                <img src="./language detection.png" class="card-img-top" alt="..." style="height: 300px; width: 300px;">
+                <div class="card-body">
+                    <h5 class="card-title">Language Detector</h5>
+                    <p class="card-text">We have done our semester project language detection on 2025. In this project
+                        by using Random Forest Algorithm we increases the accurracy of language detection project. And
+                        use TF-IDF for preproccesing of the dataset.</p>
+                </div>
+            </div>
+
+            <div class="card-3" style="width: 300px;">
+                <img src="./copyright.png" class="card-img-top" alt="..." style="height: 300px; width: 300px;">
+                <div class="card-body">
+                    <h5 class="card-title">Video Copyright Detector</h5>
+                    <p class="card-text">In this project we learn about the deep learning. So by using video hashing and
+                        fraimg we train the model and convert the videos into frame and the frames convert it into hash
+                        form we use python and flask for this project. And apply the perceptual hashing algorithm to
+                        identify vedios.</p>
+                </div>
+            </div>
+        </div>
+    </Section>
+    <section class="section-3" id="section-3">
+        <div class="hd-3">
+            <h3>Skill</h3>
+        </div>
+
+    <div class="skills-container">
+
+        <div class="skill">
+            <div class="skill-info">
+                <span>HTML</span>
+                <span>90%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress html"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-info">
+                <span>CSS</span>
+                <span>85%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress css"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-info">
+                <span>JavaScript</span>
+                <span>75%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress js"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-info">
+                <span>Python</span>
+                <span>80%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress python"></div>
+            </div>
+        </div>
+    </div> 
+    </section>
+    <section class="section-4" id="section-4">
+    <div class="hd-4">
+        <h2 >Contact</h2>
+    </div>
+    <div class="sub-title">
+        <p>Further Details Contact via Message</p>
+    </div>
+    <div class="contact-details">
+            <div class="Address">
+              <a href="https://www.google.com/maps?q=Mehdi Colony Skardu, Pakistan" target="_blank"style="text-decoration: none;"><i class="fa-solid fa-location-dot"></i></a>
+              <div>
+                <h3>Address</h3>
+                <p>MEHDI COLONY SKARDU, GILGIT BALTISTAN, PAKISTAN</p>
+              </div>
+            </div>
+
+            <div class="phone">
+              <a href="tel:+1234567890" style="text-decoration: none;"><i class="fa-solid fa-phone" ></i></a>
+              <div>
+                <h3>Call Us</h3>
+                <p>+92-348-8903273</p>
+              </div>
+            </div>
+
+            <div class="mail" href="">
+              <a href="mailto:bishalsaqlain2014@gmail.com" style="text-decoration: none;"><i class="fa-solid fa-envelope"></i></a>
+              <div>
+                <h3>Email Us</h3>
+                <p>bishalsaqlain2014@gmail.com</p>
+              </div>
+            </div>
+
+          </div>
+    <form action="contact.php" method="POST" class="contact-form" onsubmit="return validateForm()">
+        <div class="input-group">
+            <input type="text" name="name" id="name" placeholder="Your Name" required>
+        </div>
+
+        <div class="input-group">
+            <input type="email" name="email" id="email" placeholder="Your Email" required>
+        </div>
+
+        <div class="input-group">
+            <input type="text" name="subject" id="subject" placeholder="Subject" required>
+        </div>
+
+        <div class="input-group">
+            <textarea name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit">Send Message</button>
+    </form>
+</section>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <script src="Portfolio.js"></script>
+</body>
+
+</html>
